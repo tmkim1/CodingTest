@@ -22,18 +22,18 @@ public class ExampleClass {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		
-		
 		while(true) {
 			System.out.println("계속 검색: y, 중단: n");
 			
 			String input = scan.next();
-			if(input.equals("y")) {
+			
+			if(input.equals("y") || input.equals("Y")) {
+				
 				System.out.println("검색을 시작합니다.");
 				String name = scan.next();
 				Boolean flag = false;
 				
-				for (Student stu : list) {
+				for (Student stu : list) {	//List 반복 
 					if (stu.getName().equals(name)) {
 						flag = true;
 						System.out.println(name+ "번호 :" + stu.getNo());

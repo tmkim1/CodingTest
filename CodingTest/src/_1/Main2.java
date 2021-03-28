@@ -12,6 +12,7 @@ public class Main2 {
 		System.out.println(solution(tempArray));
 		       
 	}
+	
 	public static int[] solution(int[] numbers) {
         int tempNum = 0;
         
@@ -27,6 +28,7 @@ public class Main2 {
         }
         
         int[] answer = new int[tempList.size()];
+        
         for(int i=0; i<tempList.size(); i++) {
             answer[i] = tempList.get(i);
         }

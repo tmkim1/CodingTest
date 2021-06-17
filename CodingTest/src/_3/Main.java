@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 //완주하지 못한 선수
-
 public class Main {
 	public static void mains(String[] args) {
 		

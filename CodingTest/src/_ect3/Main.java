@@ -2,12 +2,13 @@ package _ect3;
 
 public class Main {
 /**
- * 문제:0~9로 이루어진 문자열에 +, * 연산을 사용하여 가장 큰 값 구하기. 
+ * [그리디 알고리즘]- 0~9로 이루어진 문자열에 +, * 연산을 사용하여 가장 큰 값 구하기. 
  * 문자열 길이 0 ~ 20
  * 일반적인 연산 우선순위와 별개로 +,* 상관 없이 앞에서부터 연산이 수행됨
  * 제한: 가장 큰 값은 20억 이하여야 함. 
- *      
- * @param args
+ * 
+ * * 참조 강의 - 이코테
+ * @author kimtaemin
  */
 	public static void main(String[] args) {
 		String numStr = "20319253";

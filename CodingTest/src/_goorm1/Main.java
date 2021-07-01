@@ -47,7 +47,7 @@ public class Main {
 		
 		for(int i=1; i<problem.length; i++) {
 			if(cnt !=3 && problem[i] != before) {			// 오름 차순 정렬된 배열에서 이전 요소랑 값이 같지 않다는 것은 더 큰 값을 가지고 있다는 이야기 
-				cnt ++; 						// 조건에 만족하니 cnt를 늘려주고 before 값을 바꾸어준다. 
+				cnt ++; 						            // 조건에 만족하니 cnt를 늘려주고 before 값을 바꾸어준다. 
 				before = problem[i];
 			} else if (cnt == 3) {
 				System.out.println("YES");
@@ -56,6 +56,8 @@ public class Main {
 		}
 		
 		if(cnt < 3) System.out.println("NO");
+		
+		br.close();
 	}
 
 }

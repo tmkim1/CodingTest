@@ -21,6 +21,7 @@ public class Main2 {
 	public static void main(String[] args) {
 		int[] arr = {2,4,5,4,6};
 		solution(arr,8,3);
+		solution(arr,10,3);
 		solution2();
 	}
 	
@@ -84,7 +85,9 @@ public class Main2 {
 		int first = arr[n-1];
 		int second = arr[n-2];
 		
-		// 가장 큰 수가 더해지는 횟수 계산, 보고나면 이해는 가는데 이런 식의 계산을 어떻게 도출 해내는지 신기  
+		// 가장 큰 수가 더해지는 횟수 계산, 보고나면 이해는 가는데 이런 식의 계산을 어떻게 도출 해내는지 수학적 아이디어를 이용해야 함. 
+		// 수학적 아이디어를 얻기 위해서는 ==> 반복되는 수열에 대해서 파악 
+		
 		int cnt = (m / (k+1)) * k; 	//k만큼 더 하고 2번쨰 값 더하는 +1 횟수를 합쳐주고 
 		cnt += m % (k + 1);         //2번째 값 + 없이 도중에 잘릴수 있으니 나머지 값을 추가로 + 
 		

@@ -3,7 +3,7 @@ package _J02;
 import java.util.Scanner;
 
 /**
- * 1. 입력된 문자열: 대소문자 변환 
+ * 2. 입력된 문자열: 대소문자 변환 
  * 출처: 인프런 자바 알고리즘 문제풀
  * @author kimtaemin
  *

@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 /**
  * 1. 문자 출연 횟수 구하기 
- * 출처: 인프런 자바 알고리즘 문제풀
+ * 출처: 인프런 자바 알고리즘 문제풀이 
+ * 
  * @author kimtaemin
  *
  */

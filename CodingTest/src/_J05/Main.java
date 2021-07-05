@@ -1,4 +1,4 @@
-package J05;
+package _J05;
 
 import java.util.Scanner;
 

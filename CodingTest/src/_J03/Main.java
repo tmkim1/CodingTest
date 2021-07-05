@@ -9,7 +9,6 @@ import java.util.Scanner;
  *
  */
 
-
 public class Main {
 	public static String solution(String str) {
 		String answer = "";
@@ -30,7 +29,7 @@ public class Main {
 		int pos = 0;
 		// 문자열을 공백을 기준으로 배열에 담는다. 
 		String[] strArray = str.split(" ");
-		while((pos=str.indexOf(' ')) != -1) { //공백을 발견할때까지 반
+		while((pos=str.indexOf(' ')) != -1) { //공백을 발견할때까지 반복 
 			String tmp = str.substring(0, pos);
 			str = str.substring(pos+1);
 			if(tmp.length() > answer.length()) {

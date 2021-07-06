@@ -15,10 +15,7 @@ ________________________________________________________________
 9. [숫자만 추출](CodingTest/src/_J09/Main.java)
 10. [가장 짧은 문자 거리 구하기](CodingTest/src/_J05/Main.java)
 <details>
-<summary>Click to toggle contents of `code`</summary>
-```
-CODE!
-```
+<summary>상세</summary>
 </details>
 ________________________________________________________________
 

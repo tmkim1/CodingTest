@@ -3,7 +3,7 @@
 ________________________________________________________________
 
 # 자바 알고리즘 문제풀이
-[String 관련 문제] 
+- String
 1. [문자 출연 횟수 구하기](CodingTest/src/_J01/Main.java)
 2. [입력된 문자열: 대소문자 변환](CodingTest/src/_J02/Main.java)
 3. [문장 속 가장 긴 단어 찾기](CodingTest/src/_J03/Main.java)
@@ -13,7 +13,7 @@ ________________________________________________________________
 7. [회문 문자 판별](CodingTest/src/_J07/Main.java)
 8. [팰린드롬 문자열 판별](CodingTest/src/_J08/Main.java)
 9. [숫자만 추출](CodingTest/src/_J09/Main.java)
-10.[가장 짧은 문자 거리 구하기](CodingTest/src/_J05/Main.java)
+10. [가장 짧은 문자 거리 구하기](CodingTest/src/_J05/Main.java)
 
 ________________________________________________________________
 

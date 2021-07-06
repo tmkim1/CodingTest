@@ -14,9 +14,9 @@ ________________________________________________________________
 8. [팰린드롬 문자열 판별](CodingTest/src/_J08/Main.java)
 9. [숫자만 추출](CodingTest/src/_J09/Main.java)
 10. [가장 짧은 문자 거리 구하기](CodingTest/src/_J05/Main.java)
-<details>
-<summary>상세</summary>
-</details>
+  <details>
+  <summary>상세</summary>
+  </details>
 ________________________________________________________________
 
 # 눈 떠보니 내일이 코딩테스트

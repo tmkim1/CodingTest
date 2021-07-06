@@ -36,11 +36,21 @@ public class Main {
 		return answer;
 	}
 	
+	//강의 풀이 
+	public static String solution2(String str) {
+		String answer = "YES";
+		String tmpStr = new StringBuilder(str).reverse().toString();
+		if(str.equals(tmpStr)) answer = "YES" ;
+		
+		return answer;
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);	
 		String str = sc.next();
 		
 		System.out.println(solution(str));
+		System.out.println(solution2(str));
 	}
 	
 	

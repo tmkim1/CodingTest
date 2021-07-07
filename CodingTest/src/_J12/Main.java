@@ -39,7 +39,7 @@ import java.util.Scanner;
 public class Main {
 
 	// 내 풀이 
-	public static String solution(int size, String s) {
+	public static String solution2(int size, String s) {
 		String answer = "";
 		String[] strArray = new String[size];           //암호 문자를 담을 배열 
 		int tempSum;
@@ -56,12 +56,20 @@ public class Main {
 			}
 			answer += Character.toString((char)tempSum);
 		}
-		
-//		for(String t : strArray) {
-//			System.out.println(t);
-//		}
-		
-		//해당 문제의 핵심 2진수 변환 
+
+		return answer;
+	}
+	
+	// 강의 답안 
+	public static String solution(int n, String s) {
+		String answer = "";
+		for(int i=0; i<n; i++) {
+			String tmp = s.substring(0,7).replace('#', '1').replace('*', '0');
+			int num = Integer.parseInt(tmp, 2);
+			answer += (char)num;
+			
+			s=s.substring(7);
+		}
 		
 		
 		return answer;
@@ -73,9 +81,8 @@ public class Main {
 		int size = sc.nextInt(); //문자 갯수 
 		String str = sc.next();  //암호 문자
 		
+		System.out.println(solution2(size,str));
 		System.out.println(solution(size,str));
 		
 	}
-	
-
 }

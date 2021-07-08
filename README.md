@@ -19,6 +19,10 @@ ________________________________________________________________
 13. [큰 수 출력](CodingTest/src/_J13/Main.java)
 14. [보이는 학생 수 구하기](CodingTest/src/_J14/Main.java)
 15. [가위 바위 보](CodingTest/src/J_15/Main.java)
+16. [피보나치 수열](CodingTest/src/J_16/Main.java)
+17. [소수 구하기](CodingTest/src/J_17/Main.java)
+18. [뒤집은 소수 구하기](CodingTest/src/J_18/Main.java)
+19. [OX 퀴즈 점수 산출](CodingTest/src/J_19/Main.java)
   
 ________________________________________________________________
 

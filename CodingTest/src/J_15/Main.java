@@ -11,7 +11,7 @@ import java.util.Scanner;
  * [입력] 
  * 5
  * 2 3 3 1 3
- * 1 1 2 2 3
+   1 1 2 2 3
  * [출력]
  * A
  * B
@@ -58,6 +58,20 @@ public class Main {
 		
 	}
 	
+	// 강의 답안
+	public static void solution2(int[] aArr, int[] bArr) {
+
+		for(int i=0; i<aArr.length; i++) {
+			
+			// 비긴 경우와 A가 이긴 경우만 찾으면 나머지는 else로 처리하면 됨. 
+			if(aArr[i] == bArr[i]) System.out.println("D");
+			else if (aArr[i] == 1 && bArr[i] == 3) System.out.println("A");
+			else if (aArr[i] == 2 && bArr[i] == 1) System.out.println("A");			
+			else if (aArr[i] == 3 && bArr[i] == 2) System.out.println("A");		
+			else System.out.println("B");
+		}
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int size = sc.nextInt();
@@ -71,5 +85,6 @@ public class Main {
 			}
 		}
 		solution(aArr, bArr);
+		solution2(aArr, bArr);
 	}
 }

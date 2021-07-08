@@ -14,6 +14,8 @@ ________________________________________________________________
 10. [가장 짧은 문자 거리 구하기](CodingTest/src/_J10/Main.java)
 11. [문자열 압축](CodingTest/src/_J11/Main.java)
 12. [암호 해독](CodingTest/src/_J12/Main.java)
+
+- Array
 13. [큰 수 출력](CodingTest/src/_J13/Main.java)
 14. [보이는 학생 수 구하기](CodingTest/src/_J14/Main.java)
 15. [가위 바위 보](CodingTest/src/_J15/Main.java)

@@ -11,12 +11,12 @@ ________________________________________________________________
 7. [회문 문자 판별](CodingTest/src/_J07/Main.java)
 8. [팰린드롬 문자열 판별](CodingTest/src/_J08/Main.java)
 9. [숫자만 추출](CodingTest/src/_J09/Main.java)
-10. [가장 짧은 문자 거리 구하기](CodingTest/src/_J05/Main.java)
-  
-  
-  <details>
-  <summary>상세</summary>
-  </details>
+10. [가장 짧은 문자 거리 구하기](CodingTest/src/_J10/Main.java)
+11. [문자열 압축](CodingTest/src/_J11/Main.java)
+12. [암호 해독](CodingTest/src/_J12/Main.java)
+13. [큰 수 출력](CodingTest/src/_J13/Main.java)
+14. [보이는 학생 수 구하기](CodingTest/src/_J14/Main.java)
+15. [가위 바위 보](CodingTest/src/_J15/Main.java)
   
 ________________________________________________________________
 

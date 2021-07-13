@@ -25,7 +25,7 @@ public class Main {
 	//내 풀이 
 	public static void solution(int n, int m, int[] firstArr, int[] secondArr) {
 		int p1=0, p2=0;
-		int[] mergeArr = new int[n+m];	//첫번쨰 배열과 두번쨰 배열을 합치니까 size도 합쳐진 값으로 배열 생성 
+		int[] mergeArr = new int[n+m];	//첫번째 배열과 두번째 배열을 합치기 때문에 새로우 배열에 전체 length도 2개의 배열 크기를 더한 값으로 생성
 		
 		for(int i=0; i<n+m; i++) {
 			
@@ -65,12 +65,12 @@ public class Main {
 		int p1=0, p2=0;
 		ArrayList<Integer> answer = new ArrayList<>();
 		
-		while(p1<n && p2<m) {
-			if(a[p1]<b[p2]) answer.add(a[p1++]);
+		while(p1<n && p2<m) {				//two pointes 사용
+			if(a[p1]<b[p2]) answer.add(a[p1++]);	//더 작은 값을 List에 추가하고 더 작은 쪽의 pointer 값을 1 증가 
 			else answer.add(b[p2++]);
 		}
 		
-		while(p1<n) answer.add(a[p1++]);
+		while(p1<n) answer.add(a[p1++]);		//아직 정리 되지 않은 채 남아 있는 값들에 대한 처리
 		while(p2<m) answer.add(b[p2++]);
 		
 		for(int num : answer) {

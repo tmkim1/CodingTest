@@ -29,9 +29,11 @@ ________________________________________________________________
 23. [임시 반장 정하기](CodingTest/src/J_23/Main.java)
 24. [시험 등수에 따른 멘토/멘티 선정하기](CodingTest/src/J_24/Main.java)
   
-- Two Pointers
+- Two Pointers, sliding window
 25. [두 배열 합치기](CodingTest/src/J_25/Main.java)
 26. [공통 원소 구하기](CodingTest/src/J_26/Main.java)
+27. [최대 매추 구하기](CodingTest/src/J_27/Main.java)
+28. [연소 부분 수열](CodingTest/src/J_28/Main.java)
 
 
 ___________________________________________________________

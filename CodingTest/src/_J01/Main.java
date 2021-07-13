@@ -14,9 +14,10 @@ public class Main {
 
 	public int solution(String str, char t) {
 		int answer = 0;
-		str = str.toUpperCase();       //대문자로 변환 
+		str = str.toUpperCase();                //대문자로 변환 
 		t = Character.toUpperCase(t);
-		
+
+//              아래 코드로 대체 
 //		for (int i=0; i<str.length(); i++) {
 //			if(t == str.charAt(i)) {
 //				answer++;
@@ -35,7 +36,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		String str = sc.next();			//String 받기 
-		char c = sc.next().charAt(0);   //char 받기 
+		char c = sc.next().charAt(0);           //char 받기 
 	    System.out.print(T.solution(str, c));
 		
 	}

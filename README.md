@@ -33,7 +33,7 @@ ________________________________________________________________
 25. [두 배열 합치기](CodingTest/src/_J25/Main.java)
 26. [공통 원소 구하기](CodingTest/src/_J26/Main.java)
 27. [최대 매출 구하기](CodingTest/src/_J27/Main.java)
-28. [연소 부분 수열](CodingTest/src/_J28/Main.java)
+28. [연속 부분 수열](CodingTest/src/_J28/Main.java)
 29. [연속된 자연수의 합](CodingTest/src/_J29/Main.java)
 30. [최대 길이 연속 부분 수열](CodingTest/src/_J30/Main.java)
 

@@ -28,7 +28,7 @@ public class Main {
 		int tempSum = 0;
 		for(int i=0; i<arr.length-contDay; i++) {	// 전체 길이의 연속된 날짜를 뺸만큼 까지만 반복문이 돌면 된다. 
 			for(int j=0; j<contDay; j++) {          // 연속된 일 수 만큼 누적 합이 반복 되기 떄문에 연속일을 반복 조건으로 사용하며  
-				tempSum += arr[i+j];			    // 현재 위치에서 연속일 수 만큼을 누적으로 더 해주도록 한다.  
+				tempSum += arr[i+j];		// 현재 위치에서 연속일 수 만큼을 누적으로 더 해주도록 한다.  
 			}
 			if(tempSum > maxSum) maxSum = tempSum;  // 값을 비교하여 연속 최대 매출액을 결정한다. 
 			tempSum = 0;
@@ -43,7 +43,7 @@ public class Main {
 		answer = tempSum;
 	
 		for(int i=0; i<arr.length-contDay; i++) {	// 전체 길이의 연속된 날짜를 뺸만큼 까지만 반복문이 돌면 된다. 
-			tempSum -= arr[i];  					// sliding window 영역에서 기존 첫번쨰 요소를 제거
+			tempSum -= arr[i];  			// sliding window 영역에서 기존 첫번쨰 요소를 제거
 			tempSum += arr[i+contDay];          	// sliding window 영역에서 새로운 요소를 추가 
 			answer = Math.max(answer, tempSum);
 		}

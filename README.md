@@ -34,6 +34,8 @@ ________________________________________________________________
 26. [공통 원소 구하기](CodingTest/src/J_26/Main.java)
 27. [최대 매추 구하기](CodingTest/src/J_27/Main.java)
 28. [연소 부분 수열](CodingTest/src/J_28/Main.java)
+29. [연속된 자연수의 합](CodingTest/src/J_29/Main.java)
+30. [최대 길이 연속 부분 수열](CodingTest/src/J_30/Main.java)
 
 
 ___________________________________________________________

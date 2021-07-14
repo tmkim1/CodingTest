@@ -34,7 +34,7 @@ public class Main {
 		Arrays.sort(arr);
 		Arrays.sort(arr2);
 		
-		// 작으면 인덱스 증가 같으면 추가, 반복은 두 배열 끝까지 다 돌때까지 
+		// 작으면 인덱스 증가, 같으면 추가, 반복은 1개의 배열이 끝까지 다 돌때까지 
 		while(lp<arr.length && op<arr2.length) {
 			if(arr[lp] == arr2[op]) {	//같으면 리스트에 추가하고, 두 배열 모두 인덱스 증가 
 				list.add(arr[lp]);

@@ -38,12 +38,15 @@ ________________________________________________________________
 30. [최대 길이 연속 부분 수열](CodingTest/src/_J30/Main.java)
 
 - HashMap, TreeSet
-31. [학금 회장](CodingTest/src/_J31/Main.java)
+31. [학급 회장](CodingTest/src/_J31/Main.java)
+32. [아나그램 확인](CodingTest/src/_J32/Main.java)
+33. [매출액 종류 구하기](CodingTest/src/_J33/Main.java)
 
 ___________________________________________________________
 
 # 프로그래머스
 1. [완주하지 못하 선수](CodingTest/src/_3/Main.java)
+2. [전화번호 목록 - 접두어 확인](CodingTest/src/_4/Main.java)
 ___________________________________________________________
 
 # 눈 떠보니 내일이 코딩테스트

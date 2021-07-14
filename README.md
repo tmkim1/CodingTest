@@ -37,7 +37,7 @@ ________________________________________________________________
 29. [연속된 자연수의 합](CodingTest/src/_J29/Main.java)
 30. [최대 길이 연속 부분 수열](CodingTest/src/_J30/Main.java)
 
--HashMap, TreeSet
+- HashMap, TreeSet
 31. [학금 회장](CodingTest/src/_J31/Main.java)
 
 ___________________________________________________________

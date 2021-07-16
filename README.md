@@ -42,7 +42,13 @@ ________________________________________________________________
 32. [아나그램 확인](CodingTest/src/_J32/Main.java)
 33. [매출액 종류 구하기](CodingTest/src/_J33/Main.java)
 34. [전체 아나그램 횟수 구하기](CodingTest/src/_J34/Main.java)
+35. [K번째 큰 선수](CodingTest/src/_J35/Main.java)
 
+- Stack, Queue
+36. [올바른 괄호](CodingTest/src/_J36/Main.java)
+37. [괄호 문자 제거](CodingTest/src/_J37/Main.java)
+38. [크레인 인형 뽑기(카카오)](CodingTest/src/_J38/Main.java)
+39. [후위식 연산](CodingTest/src/_J39/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

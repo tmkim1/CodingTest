@@ -52,7 +52,7 @@ public class Main {
 					// 맨 마지막부터 순차적으로 도는데 x면 무시-> push하면 기존 값 x처리
 					int target = board[j][m-1];
 					if(target != 0) {
-						if(!stack.isEmpty() && stack.get(stack.size()-1) == target) {	//target과 같은 인형이라면 제거하고 cnt++ 
+						if(!stack.isEmpty() && stack.get(stack.size()-1) == target) {	//target과 같은 인형이라면 제거하고 answer += 2;
 							stack.pop();
 							board[j][m-1] = 0;
 							answer += 2;

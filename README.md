@@ -55,10 +55,12 @@ ___________________________________________________________
 - Hash
 1. [완주하지 못하 선수](CodingTest/src/_3/Main.java)
 2. [전화번호 목록 - 접두어 확인](CodingTest/src/_4/Main.java)
+3. [위장 - 경우의 수 구하기](CodingTest/src/_8/Main.java)
 
 - 정렬 
 1. [K번째 선수](CodingTest/src/_5/Main.java)
 2. [가장 큰 수](CodingTest/src/_6/Main.java)
+3. [h-index](CodingTest/src/_7/Main.java)
 ___________________________________________________________
 
 # 눈 떠보니 내일이 코딩테스트

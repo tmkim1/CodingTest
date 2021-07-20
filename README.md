@@ -51,6 +51,8 @@ ________________________________________________________________
 39. [후위식 연산](CodingTest/src/_J39/Main.java)
 40. [쇠 막대 자르기](CodingTest/src/_J40/Main.java)
 41. [공주 구하기](CodingTest/src/_J41/Main.java)
+42. [시간표 우선순위](CodingTest/src/_J42/Main.java)
+43. [환자 치료 우선순위](CodingTest/src/_J43/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

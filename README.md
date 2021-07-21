@@ -53,7 +53,6 @@ ________________________________________________________________
 41. [공주 구하기](CodingTest/src/_J41/Main.java)
 42. [시간표 우선순위](CodingTest/src/_J42/Main.java)
 43. [환자 치료 우선순위](CodingTest/src/_J43/Main.java)
-44. [버블 정렬](testProject/src/_50BubbleSort/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

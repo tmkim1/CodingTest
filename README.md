@@ -80,7 +80,9 @@ ________________________________________________________________
 <h3>배열</h3> 
 
 * 복사
-  - arr.clone(); 
+  - 배열 전체 복사: arr.clone(); 
+  - 지정한 범위 복사: Arrays.copyOfRange(array, start, end);
+    
 * 정렬
   - 오름 차순: Arrays.sort(arr);
   - 내림 차순: Arrays.sort(arr, Collections.reverseOrder());

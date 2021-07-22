@@ -77,11 +77,11 @@ ________________________________________________________________
 
 ________________________________________________________________
 # Java 메서드 정리 
-- 배열 
+<h3>배열</h3> 
 
 * 복사
-  arr.clone(); 
+  - arr.clone(); 
 * 정렬
-  1. 오름 차순: Arrays.sort(arr);
-  2. 내림 차순: Arrays.sort(arr, Collections.reverseOrder());
+  - 오름 차순: Arrays.sort(arr);
+  - 내림 차순: Arrays.sort(arr, Collections.reverseOrder());
 

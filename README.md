@@ -79,8 +79,9 @@ ________________________________________________________________
 # Java 메서드 정리 
 - 배열 
 
-1. 복사: arr.clone(); 
-2. 정렬
-  * 오름 차순: Arrays.sort(arr);
-  * 내림 차순: Arrays.sort(arr, Collections.reverseOrder());
+* 복사
+  arr.clone(); 
+* 정렬
+  1. 오름 차순: Arrays.sort(arr);
+  2. 내림 차순: Arrays.sort(arr, Collections.reverseOrder());
 

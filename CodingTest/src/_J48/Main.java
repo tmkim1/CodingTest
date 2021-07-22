@@ -1,5 +1,6 @@
 package _J48;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -44,6 +45,18 @@ public class Main {
 		return answer; 
 	}
 	
+	// 정렬 후, 확인 
+	public static char solution2(int size, int[] arr) {
+		char answer = 'U';
+		Arrays.sort(arr);
+		
+		for(int i=0; i<arr.length-1; i++) {
+				if(arr[i] == arr[i+1]) return 'D';
+		}
+		
+		return answer; 
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int size = sc.nextInt();
@@ -54,5 +67,6 @@ public class Main {
 		}
 		
 		System.out.println(solution(size, arr));
+		System.out.println(solution2(size, arr));
 	}
 }

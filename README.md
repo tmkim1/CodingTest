@@ -97,8 +97,8 @@ ________________________________________________________________
   - 내림 차순: Arrays.sort(arr, Collections.reverseOrder());
 
 * 집계
-  - 1. 배열 원소 중 가장 큰 값 반환: Arrays.stream(arr).max().getAsInt();
-  - 2. 배열 원소 중 가장 작은 값 반환: Arrays.stream(arr).min().getAsInt();
-  - 3. 배열 원소의 합 반환: Arrays.stream(arr).sum();
+  - 배열 원소 중 가장 큰 값 반환: Arrays.stream(arr).max().getAsInt();
+  - 배열 원소 중 가장 작은 값 반환: Arrays.stream(arr).min().getAsInt();
+  - 배열 원소의 합 반환: Arrays.stream(arr).sum();
   - 관련 문제 ([뮤직 비디오 필요 dvd 갯수 구하기](CodingTest/src/_J52/Main.java))
 

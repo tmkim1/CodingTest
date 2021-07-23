@@ -53,6 +53,13 @@ ________________________________________________________________
 41. [공주 구하기](CodingTest/src/_J41/Main.java)
 42. [시간표 우선순위](CodingTest/src/_J42/Main.java)
 43. [환자 치료 우선순위](CodingTest/src/_J43/Main.java)
+44. [선택 정렬](CodingTest/src/_J44/Main.java)
+45. [버블 정렬](CodingTest/src/_J45/Main.java)
+46. [삽입 정렬](CodingTest/src/_J46/Main.java)
+47. [Least Recently Used](CodingTest/src/_J47/Main.java)
+48. [중복 확인](CodingTest/src/_J48/Main.java)
+49. [장난 꾸러기](CodingTest/src/_J49/Main.java)
+50. [](CodingTest/src/_J50/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

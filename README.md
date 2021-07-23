@@ -75,3 +75,15 @@ ________________________________________________________________
 # 구름
 1. [문제 선정하기](CodingTest/src/_goorm1/Main.java) LEVEL 순차 적용
 
+________________________________________________________________
+# Java 메서드 정리 
+<h3>배열</h3> 
+
+* 복사
+  - 배열 전체 복사: arr.clone(); 
+  - 지정한 범위 복사: Arrays.copyOfRange(array, start, end);
+    
+* 정렬
+  - 오름 차순: Arrays.sort(arr);
+  - 내림 차순: Arrays.sort(arr, Collections.reverseOrder());
+

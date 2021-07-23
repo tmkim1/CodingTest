@@ -59,7 +59,7 @@ ________________________________________________________________
 47. [Least Recently Used](CodingTest/src/_J47/Main.java)
 48. [중복 확인](CodingTest/src/_J48/Main.java)
 49. [장난 꾸러기](CodingTest/src/_J49/Main.java)
-50. [환자 치료 우선순위](CodingTest/src/_J50/Main.java)
+50. [](CodingTest/src/_J50/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

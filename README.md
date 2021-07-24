@@ -59,7 +59,9 @@ ________________________________________________________________
 47. [Least Recently Used](CodingTest/src/_J47/Main.java)
 48. [중복 확인](CodingTest/src/_J48/Main.java)
 49. [장난 꾸러기](CodingTest/src/_J49/Main.java)
-50. [](CodingTest/src/_J50/Main.java)
+50. [좌표 정렬](CodingTest/src/_J50/Main.java)
+51. [이분 검색](CodingTest/src/_J51/Main.java)
+52. [뮤직 비디오 필요 dvd 갯수 구하기](CodingTest/src/_J52/Main.java)
 ___________________________________________________________
 
 # 프로그래머스
@@ -93,4 +95,10 @@ ________________________________________________________________
 * 정렬
   - 오름 차순: Arrays.sort(arr);
   - 내림 차순: Arrays.sort(arr, Collections.reverseOrder());
+
+* 집계
+  - 배열 원소 중 가장 큰 값 반환: Arrays.stream(arr).max().getAsInt();
+  - 배열 원소 중 가장 작은 값 반환: Arrays.stream(arr).min().getAsInt();
+  - 배열 원소의 합 반환: Arrays.stream(arr).sum();
+  - 관련 문제 ([뮤직 비디오 필요 dvd 갯수 구하기](CodingTest/src/_J52/Main.java))
 

@@ -20,11 +20,7 @@ public class Main {
 			String tmpWord = new StringBuilder(word).reverse().toString();
 			strList.add(tmpWord);
 		}
-		
-		for(int i=0; i<strList.size(); i++) {
-			
-		}
-		
+
 		return strList; 
 	}
 	

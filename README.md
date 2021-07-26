@@ -53,6 +53,8 @@ ________________________________________________________________
 41. [공주 구하기](CodingTest/src/_J41/Main.java)
 42. [시간표 우선순위](CodingTest/src/_J42/Main.java)
 43. [환자 치료 우선순위](CodingTest/src/_J43/Main.java)
+
+- 정렬, 이분 검색, 결정 알고리즘
 44. [선택 정렬](CodingTest/src/_J44/Main.java)
 45. [버블 정렬](CodingTest/src/_J45/Main.java)
 46. [삽입 정렬](CodingTest/src/_J46/Main.java)
@@ -62,6 +64,7 @@ ________________________________________________________________
 50. [좌표 정렬](CodingTest/src/_J50/Main.java)
 51. [이분 검색](CodingTest/src/_J51/Main.java)
 52. [뮤직 비디오 필요 dvd 갯수 구하기](CodingTest/src/_J52/Main.java)
+53. [마굿간 거리 설정](CodingTest/src/_J53/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

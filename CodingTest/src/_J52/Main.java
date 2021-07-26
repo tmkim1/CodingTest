@@ -60,7 +60,7 @@ public class Main {
 		int sum = 0;
 		int dc = 0;
 		
-		for(int num : arr) {		// 모든 음원의 합: 45 (최대 설정 용량 후보) => rt 
+		for(int num : arr) // 모든 음원의 합: 45 (최대 설정 용량 후보) => rt 
 			rt += num;
 		}
 		
@@ -71,14 +71,14 @@ public class Main {
 			
 			for(int i=0; i<arr.length; i++) {
 				if(mid >= sum + arr[i]) sum += arr[i]; // 누적 합이 용량을 벗어나지 않을 때 추가.
-				else {                                // 벗어난다면 사용한 디스크 수를 증가 시킨 후 새로 sum
+				else {                                 // 벗어난다면 사용한 디스크 수를 증가 시킨 후 새로 sum
 					cnt++;
 					sum = arr[i];
 				}
 			}
 			
 			//해당 용량으로 설정 했을때 디스크 용량이 m개를 벗어나지 않는다면 후보 가능 
-			if(cnt <= m) {  // 조건에 적합하다면 더 작은 값의 후보가 있는지 확인 
+			if(cnt <= m) {          // 조건에 적합하다면 더 작은 값의 후보가 있는지 확인 
 				dc = mid;
 				rt = mid-1;
 			}

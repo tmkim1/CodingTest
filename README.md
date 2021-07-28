@@ -124,6 +124,6 @@ ________________________________________________________________
 * Queue
   - 생성: Queue<Integer> Q = new LinkedList<>():
   - 추가: Q.add(1), Q.offer(2);
-    .offer 메서드는 큐가 가득차서 더이상 추가할 수 없는 경우 false를 반환하고 요소가 추가되면 true를 반환하며 특정 예외를 throw하지 않는다.                                
-    .add 메소드는 illegalStateException를 발생시킨다.
+    - offer 메서드는 큐가 가득차서 더이상 추가할 수 없는 경우 false를 반환하고 요소가 추가되면 true를 반환하며 특정 예외를 throw하지 않는다.                                
+    - add 메소드는 illegalStateException를 발생시킨다.
   - 제거 및 반환: Integer n = Q.poll(); // 가장 먼저 들어온 원소가 반환되며 Q에서 제거 됨.

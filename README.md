@@ -67,10 +67,14 @@ ________________________________________________________________
 53. [마굿간 거리 설정](CodingTest/src/_J53/Main.java)
 
 - Recursive, Tree, Graph
-54. [재귀함수 (스택프레임)](CodingTest/src/_J53/Main.java)
-55. [이진수 출력 (재귀)](CodingTest/src/_J53/Main.java)
-56. [Factorial (재귀)](CodingTest/src/_J53/Main.java)
+54. [재귀함수 (스택프레임)](CodingTest/src/_J54/Main.java)
+55. [이진수 출력 (재귀)](CodingTest/src/_J55/Main.java)
+56. [Factorial (재귀)](CodingTest/src/_J56/Main.java)
 57. [피보나치 수열 (메모이제이션)](CodingTest/src/_J57/Main.java)
+58. [이진 트리 순회](CodingTest/src/_J58/Main.java)
+59. [부분 집합 구하기 (DFS)](CodingTest/src/_J59/Main.java)
+60. [이진트리 레벨 탐색 (BFS: Breadth Fisrt Search)](CodingTest/src/_J60/Main.java)
+61. [송아지 찾기](CodingTest/src/_J61/Main.java)
 
 ___________________________________________________________
 

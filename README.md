@@ -117,9 +117,17 @@ ________________________________________________________________
   - 관련 문제 ([뮤직 비디오 필요 dvd 갯수 구하기](CodingTest/src/_J52/Main.java))
 
 <h3>Stack, Queue</h3> 
-* Stack
-  - 생성: arr.clone(); 
 
+* Stack
+  - 생성: Stack<Integer> stack = new Stack<>();
+  - 추가: stack.push(1);
+  - 반환 및 제거: Integer n = stack.pop(); 
+  - Stack 비우기: stack.clear();
+  - Stack에 해당하는 값이 존재하는지 확인: stack.contains(1);
+  - 크기 반환: stack.size();
+  - Stack이 비어있는지 확인: stack.empty();
+  - 최 상단 값 반환: stack.peek() //값을 뺴지는 않고 가장 상단에 있는 애를 가져온다
+  - 특정 인덱스 값 가져오기: stack.get(0);
 
 * Queue
   - 생성: Queue<Integer> Q = new LinkedList<>():

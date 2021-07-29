@@ -3,8 +3,9 @@ package _J63;
 import java.util.Scanner;
 
 /**
- * 63. 
+ * 63. 경로탐색 DFS   
  * 
+ * 방향 그래프가 주어지면 1번 정점에서 N번 정점으로 가는 모든 경로의 가지 수를 출력하시오.
  * 
  * [입력] 
  * 5 9
@@ -17,9 +18,9 @@ import java.util.Scanner;
    3 4
    4 2
    4 5 
+   
  * [출력] 
- * 
- * 
+ * 6
  * 
  * 출처: 인프런 자바 알고리즘 문제풀이
  * 
@@ -31,6 +32,7 @@ public class Main {
 	static int[][] graph;
 	static int[] ch;
 	
+	//2차원 배열 사용하는 방법, 비효율적 ==> 인접 리스트 활용 필요 (64번 문제)
 	public static void DFS(int v) {
 		if(n == v) answer++;
 		else {
@@ -58,7 +60,5 @@ public class Main {
 		ch[1] = 1; //시작 정점 
 		DFS(1);
 		System.out.println(answer);
-		
-		
 	}
 }

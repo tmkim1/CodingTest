@@ -32,7 +32,7 @@ public class Main {
 			else {
 				ls = (s.substring(0,i+1).length()-1)-(s.substring(0,i+1).lastIndexOf(target));	// 검사 대상 좌측으로 검사 
 				//System.out.println("ls:" + s.substring(0,i+1));
-				rs = s.substring(i).indexOf(target);      										 // 검사 대상 우측으로 검사
+				rs = s.substring(i).indexOf(target);      					// 검사 대상 우측으로 검사
 				//System.out.println("rs:" + s.substring(i));
 				if(ls != -1 && ls <= rs) sizeArr[i] = ls;
 				else sizeArr[i] = rs;

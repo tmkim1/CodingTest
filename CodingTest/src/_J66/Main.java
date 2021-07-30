@@ -39,8 +39,6 @@ public class Main {
 		if(answer == "YES") return; //마지막 노드에 도달하면 chk[]를 검사하며 출력    
 		if(sum > (totalSum/2)) return; //이미 지정 값을 넘어선 경우는 검사 할 필요 없음 
 		
-//		if(L == n && sum == (totalSum - sum)) {
-//			answer = "YES";
 		if(L == n) {
 			if(sum == totalSum - sum) {
 				answer = "YES";

@@ -78,6 +78,9 @@ ________________________________________________________________
 62. [말단 노드까지의 가장 짧은 경로 (DFS, BFS)](CodingTest/src/_J62/Main.java)
 63. [경로 탐색 (인접 행렬)](CodingTest/src/_J63/Main.java)
 64. [경로 탐색 (인접 리스트)](CodingTest/src/_J64/Main.java)
+65. [그래프 최단거리 (BFS)](CodingTest/src/_J65/Main.java)
+66. [합이 같은 부분집합 (DFS: 아마존 인터뷰) ](CodingTest/src/_J66/Main.java)
+67. [바둑이 (DFS)](CodingTest/src/_J67/Main.java)
 
 ___________________________________________________________
 

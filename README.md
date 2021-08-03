@@ -84,6 +84,10 @@ ________________________________________________________________
 66. [합이 같은 부분집합 (DFS: 아마존 인터뷰) ](CodingTest/src/_J66/Main.java)
 67. [바둑이 (DFS)](CodingTest/src/_J67/Main.java)
 68. [최대점수 구하기 (DFS)](CodingTest/src/_J68/Main.java)
+69. [중복 순열](CodingTest/src/_J68/Main.java)
+70. [동전 교환](CodingTest/src/_J68/Main.java)
+71. [순열 (중복 불가)](CodingTest/src/_J68/Main.java)
+72. [조합 경우의 수 구하기 (메모이제이션)](CodingTest/src/_J68/Main.java)
 
 ___________________________________________________________
 

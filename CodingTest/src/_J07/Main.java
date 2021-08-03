@@ -40,7 +40,7 @@ public class Main {
 	public static String solution2(String str) {
 		String answer = "YES";
 		String tmpStr = new StringBuilder(str).reverse().toString();
-		if(str.equals(tmpStr)) answer = "YES" ;
+		if(str.equalsIgnoreCase(tmpStr)) answer = "YES" ;	//equals와의 차이: 대소문자 구분하지 않고 값만 같은지 체크 
 		
 		return answer;
 	}

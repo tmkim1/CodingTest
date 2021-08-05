@@ -102,10 +102,14 @@ ___________________________________________________________
 2. [가장 큰 수](CodingTest/src/_6/Main.java)
 3. [h-index](CodingTest/src/_7/Main.java)
 ___________________________________________________________
-<!--# LeetCode 
-1. 
-2. 
-3. -->
+# LeetCode 
+
+- Arrays
+1. [Max Consecutive Ones](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/)
+2. [Find Numbers with Even Number of Digits](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3237/)
+3. [Squares of a Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/)
+4. [Duplicate Zeros](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/)
+
 
 # 눈 떠보니 내일이 코딩테스트
 1. [암호 해독](CodingTest/src/Q1/Main.java)

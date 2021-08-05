@@ -88,7 +88,11 @@ ________________________________________________________________
 70. [동전 교환](CodingTest/src/_J70/Main.java)
 71. [순열 (중복 불가)](CodingTest/src/_J71/Main.java)
 72. [조합 경우의 수 구하기 (메모이제이션)](CodingTest/src/_J72/Main.java)
-
+73. [수열 추측하기](CodingTest/src/_J73/Main.java)
+74. [조합 구하기 ](CodingTest/src/_J74/Main.java)
+75. [미로 탐색 (DFS)](CodingTest/src/_J75/Main.java)
+76. [미로의 최단거리 탈출 경로 구하기 ](CodingTest/src/_J76/Main.java)
+77. [토마토](CodingTest/src/_J77/Main.java) 프로그래머스 Level3. 전염병과 매우 유사함 
 ___________________________________________________________
 
 # 프로그래머스

@@ -109,7 +109,7 @@ ___________________________________________________________
 2. [Find Numbers with Even Number of Digits](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3237/)
 3. [Squares of a Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/)
 4. [Duplicate Zeros](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/)
-
+5. [Merge Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/)
 
 # 눈 떠보니 내일이 코딩테스트
 1. [암호 해독](CodingTest/src/Q1/Main.java)

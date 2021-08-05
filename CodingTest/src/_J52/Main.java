@@ -60,7 +60,7 @@ public class Main {
 		int sum = 0;
 		int dc = 0;
 		
-		for(int num : arr) // 모든 음원의 합: 45 (최대 설정 용량 후보) => rt 
+		for(int num : arr) { // 모든 음원의 합: 45 (최대 설정 용량 후보) => rt 
 			rt += num;
 		}
 		

@@ -93,6 +93,9 @@ ________________________________________________________________
 75. [미로 탐색 (DFS)](CodingTest/src/_J75/Main.java)
 76. [미로의 최단거리 탈출 경로 구하기 ](CodingTest/src/_J76/Main.java)
 77. [토마토](CodingTest/src/_J77/Main.java) (프로그래머스 Level 3. "전염병" 문제와 매우 유사)
+78. [섬나라 아일랜드 (BFS)](CodingTest/src/_J78/Main.java)
+79. [섬나라 아일랜드 (DFS)](CodingTest/src/_J79/Main.java)
+80. [피자 배달 거리(삼성 SW역량평가 기출문제 : DFS활용)](CodingTest/src/_J80/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

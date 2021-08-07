@@ -117,6 +117,8 @@ ___________________________________________________________
 3. [Squares of a Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/)
 4. [Duplicate Zeros](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/)
 5. [Merge Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/)
+6. [Remove Element](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/)
+7. [(https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/)
 
 # 눈 떠보니 내일이 코딩테스트
 1. [암호 해독](CodingTest/src/Q1/Main.java)

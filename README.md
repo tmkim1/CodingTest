@@ -96,6 +96,17 @@ ________________________________________________________________
 78. [섬나라 아일랜드 (BFS)](CodingTest/src/_J78/Main.java)
 79. [섬나라 아일랜드 (DFS)](CodingTest/src/_J79/Main.java)
 80. [피자 배달 거리(삼성 SW역량평가 기출문제 : DFS활용)](CodingTest/src/_J80/Main.java)
+81. [씨름 선수](CodingTest/src/_J81/Main.java)
+82. [회의실 배정](CodingTest/src/_J82/Main.java)
+83. [결혼식](CodingTest/src/_J83/Main.java)
+84. [최대 수입 스케줄](CodingTest/src/_J84/Main.java)
+85. [다익스트라 알고리즘](CodingTest/src/_J85/Main.java)
+86. [친구인가 (Disjoint-set: Union & Find)](CodingTest/src/_J86/Main.java)
+87. [원더랜드 (최소 스패닝 트리 : 크루스칼 Union & find 활용)](CodingTest/src/_J87/Main.java)
+88. [계단 오르기](CodingTest/src/_J88/Main.java)
+89. [최대 부분 증가 수열](CodingTest/src/_J89/Main.java)
+90. [동전 교환 (냅색 알고리즘)](CodingTest/src/_J90/Main.java)
+91. [최대 점수 구하기 (냅색 알고리즘)](CodingTest/src/_J91/Main.java)
 ___________________________________________________________
 
 # 프로그래머스

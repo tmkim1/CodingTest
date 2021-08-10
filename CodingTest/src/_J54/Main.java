@@ -32,9 +32,18 @@ public class Main {
 		}
 	}
 	
+	
+	//유클리드 호제법 (최대공약수 구하기 - 재귀) 
+	public static int gcd(int a, int b) {
+		if(a % b == 0) return b;
+		else return gcd(b, a % b);
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		solution(n);
+		System.out.println("");
+		System.out.println("gcd 192, 162: " + gcd(192, 162));
 	}
 }

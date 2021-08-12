@@ -51,7 +51,8 @@ public class Main {
 	
 	public static int answer = Integer.MAX_VALUE;
 	
-	//레벨 별로 탐색 -> 레벨은 거리가 됨. 
+	//레벨 별로 탐색 -> 레벨은 거리가 되고, 이미 탐색 된 좌표는 1로 변경 된 상태이기 때문에 다른 경로로 더 늦게 온 경우는 진입이 불가 
+	//따라서 레벨 탐색을 하게 되면 자동적으로 최소 거리를 찾게 됨.
 	public static void BFS(int x, int y) {
 		Queue<Point> Q = new LinkedList<>();
 		Q.add(new Point(x, y)); //초기 포인트 추가 

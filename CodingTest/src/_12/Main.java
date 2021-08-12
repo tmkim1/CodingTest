@@ -13,6 +13,7 @@ import java.util.Arrays;
 
 public class Main {
 	
+	
 	public static long solution(int n, int[] times) {
         long answer = 0;
         long min = 0;
@@ -22,11 +23,12 @@ public class Main {
         //심사관 별 처리 시간, 오름차순 정렬 
         Arrays.sort(times);
         //가장 오랜 시간이 걸리는 시간 max에 부여
-        max = n * times[times.length-1];
+        max = (long)n * times[times.length-1];
+        
         
         //이분 탐색 시작 
         while(min <= max) {
-            int tmpN = 0;
+            long tmpN = 0;
             mid = (min + max) / 2;
             //주어진 시간에 각 심사관 별 심사 가능 사람 수를 누적 
             for(int i=0; i<times.length; i++) {

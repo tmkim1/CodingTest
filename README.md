@@ -123,6 +123,16 @@ ___________________________________________________________
 1. [K번째 선수](CodingTest/src/_5/Main.java)
 2. [가장 큰 수](CodingTest/src/_6/Main.java)
 3. [h-index](CodingTest/src/_7/Main.java)
+
+- 스택, 큐
+1. [기능개발](CodingTest/src/_11/Main.java) 
+
+- 탐색 
+1. [입국심사](CodingTest/src/_12/Main.java) 
+
+- 위클리 챌린지 
+1. [상호 평가](CodingTest/src/_9/Main.java)
+2. [부족한 금액 계산하기](CodingTest/src/_10/Main.java)
 ___________________________________________________________
 # LeetCode 
 

@@ -1,6 +1,8 @@
 package _J30;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
  * 30. 최대 길이 연속부분수열 
@@ -33,7 +35,7 @@ public class Main {
 		for(int rt = 0; rt < n; rt++) {
 			if(arr[rt] == 0) cnt ++; 
 			while(cnt > k) {
-				if(arr[lt] == 0) cnt --; // k번을 초과한 경우 lt쪽에 변경 된 1을 다시 0으로 초기화 
+				if(arr[lt] == 0) cnt --; // k번을 초과한 경우 lt쪽에 변경 된 1을 다시 0으로 초기화 (실제로 변경하지는 않고 카운트로만 구별) 
 				lt++;
 			}
 			answer = Math.max(answer, rt-lt+1);
@@ -42,18 +44,39 @@ public class Main {
 		
 	}
 	
-	public static void main(String[] args) {
-		int n=0, k=0;
-		Scanner sc = new Scanner(System.in);
+	//practice
+	public static void solution2(int n, int k, int arr[]) {
+		int answer = 0, cnt = 0, lt = 0;
 		
-		n = sc.nextInt();
-		k = sc.nextInt();
+		for(int rt=0; rt<n; rt++) {
+			if(arr[rt] == 0) cnt ++;
+			while(cnt > k) {
+				if(arr[lt] == 0) cnt --;
+				lt++;
+			}
+			answer = Math.max(answer, rt-lt+1);
+		}
+		System.out.println(answer);
+		
+	}
+	
+	public static void main(String[] args) throws Exception{
+		int n=0, k=0;
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		
+		n = Integer.parseInt(st.nextToken());
+		k = Integer.parseInt(st.nextToken());
+		
+		st = new StringTokenizer(br.readLine());
 		
 		int[] arr = new int[n];
 		
 		for(int i=0; i<n; i++) {
-			arr[i] = sc.nextInt();
+			arr[i] = Integer.parseInt(st.nextToken());
 		}
 		solution(n, k, arr);
+		solution2(n, k, arr);
 	}
 }

@@ -23,7 +23,7 @@ ________________________________________________________________
 17. [소수 구하기](CodingTest/src/_J17/Main.java)
 18. [뒤집은 소수 구하기](CodingTest/src/_J18/Main.java)
 19. [OX 퀴즈 점수 산출](CodingTest/src/_J19/Main.java)
-20. [등수 구하기](CodingTest/src/J_20/Main.java)
+20. [등수 구하기](CodingTest/src/_J20/Main.java)
 21. [격자 판 합 구하기](CodingTest/src/_J21/Main.java)
 22. [봉우리 개수 구하기](CodingTest/src/_J22/Main.java)
 23. [임시 반장 정하기](CodingTest/src/_J23/Main.java)

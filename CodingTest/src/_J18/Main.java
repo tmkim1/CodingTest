@@ -12,7 +12,7 @@ import java.util.Scanner;
  * 
  * [입력] 
  * 9
- * 32 55 62 20 250 370 200 30 100
+   32 55 62 20 250 370 200 30 100
  * [출력]
  * 23 2 73 2 3
  * 출처: 인프런 자바 알고리즘 문제풀이 
@@ -21,7 +21,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static boolean solution(int n) {
-		if(n == 0 || n == 1) return false; // 0과 1은 소수가 아
+		if(n == 0 || n == 1) return false; // 0과 1은 소수가 X
 		
 		for(int i=2; i<n; i++) {
 			if(n % i == 0) return false;   // 2부터 자기 자신보다 1작은 수까지 딱 나누어 떨어지는 값이 있는 경우 소수가 아님 
@@ -44,7 +44,7 @@ public class Main {
 				
 				//321 % 10 = 1, 
 				int t = number % 10;	//나머지 값을 담을 변수 
-				res = res * 10 + t;     //뒤집힌 값을 담을 변
+				res = res * 10 + t;     //뒤집힌 값을 담을 변수 
 				number = number / 10;   //입력 받은 값 
 			}
 			// res = 뒤집힌 정수 

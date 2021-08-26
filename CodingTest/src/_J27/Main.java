@@ -5,14 +5,20 @@ import java.util.Scanner;
 /**
  * 27. 최대 매출 구하기 
  * 
- * 문제 설명: 현수의 아빠는 제과점을 운영합니다. 현수 아빠는 현수에게 N일 동안의 매출기록을 주고 연속된 K일 동안의 최대 매출액이 얼마인지 구하라고 했습니다.
- * 만약 N=10이고 10일 간의 매출기록이 아래와 같습니다. 이때 K=3이면
- * 12 1511 20 2510 20 19 13 15
+ * 문제 설명: 현수의 아빠는 제과점을 운영합니다. 
+ * 
+ * 현수 아빠는 현수에게 N일 동안의 매출기록을 주고 연속된 K일 동안의 최대 매출액이 얼마인지 구하라고 했습니다.
+ * 
+ * 만약 N=10이고, 10일 간의 매출 기록이 아래와 같습니다. 이때 K=3이면
+ * 
+ * 12 15 11 20 2510 20 19 13 15
+ * 
  * 연속된 3일간의 최대 매출액은 11+20+25=56만원입니다.
  * 
  * [입력] 
  *  10 3
 	12 15 11 20 25 10 20 19 13 15
+	
  * [출력] 
  *  56
  * 
@@ -39,16 +45,29 @@ public class Main {
 	//강의 답안: sliding window 사용 
 	public static void solution2(int totalDay, int contDay, int[] arr) {
 		int answer = 0, tempSum = 0;
-		for(int i=0; i<contDay; i++) tempSum += arr[i];
+		for(int i=0; i<contDay; i++) tempSum += arr[i]; 
 		answer = tempSum;
 	
 		for(int i=0; i<arr.length-contDay; i++) {	// 전체 길이의 연속된 날짜를 뺸만큼 까지만 반복문이 돌면 된다. 
-			tempSum -= arr[i];  			// sliding window 영역에서 기존 첫번쨰 요소를 제거
+			tempSum -= arr[i];  			        // sliding window 영역에서 기존 첫번쨰 요소를 제거
 			tempSum += arr[i+contDay];          	// sliding window 영역에서 새로운 요소를 추가 
 			answer = Math.max(answer, tempSum);
 		}
 		System.out.println(answer);
  	}
+	
+	public static void solution3(int totalDay, int contDay, int[] arr) {
+		int answer = 0, tempSum = 0;
+		for(int i=0; i<contDay; i++) tempSum += arr[i]; //연속 일 총 합 초기 셋팅 
+		answer = tempSum;
+		
+		for(int i=0; i<totalDay - contDay; i++) {
+			tempSum -= arr[i];
+			tempSum += arr[i+contDay];
+			Math.max(answer, tempSum);
+		}
+		System.out.println(answer);
+	}
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -63,6 +82,7 @@ public class Main {
 		}
 		
 		solution2(totalDay, contDay, arr);
+		solution3(totalDay, contDay, arr);
 		
 	}
 }

@@ -1,6 +1,5 @@
 package _J18;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**

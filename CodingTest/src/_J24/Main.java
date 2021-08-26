@@ -30,7 +30,7 @@ public class Main {
 		for(int i=1; i<=n; i++) {		        //멘토, 멘티 가능한 경우의 수 만큼 반복 //i: 멘토, j: 멘티 
 			for(int j=1; j<=n; j++) {
 				int cnt = 0;
-				for(int k=0; k<m; k++) {		// 테스트 수 만큼 돌리
+				for(int k=0; k<m; k++) {		// 테스트 수 만큼 돌리기 
 					int pi=0, pj=0;
 					for(int s=0; s<n; s++) {    // 랭킹 수 만큼 돌린다.
 						if(arr[k][s]==i) pi=s;	// 해당 테스트에서 0등~n등 한 사람이 누구인지 확인// 내가 고려하는 경우의 수의 학생이라면 등수를 저장  

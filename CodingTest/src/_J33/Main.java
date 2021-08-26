@@ -35,30 +35,30 @@ public class Main {
 	public static void solution(int totalNum, int contNum, int[] arr) {
 		int lt = 0;
 		int rt = contNum-1;
-		int[] result = new int[arr.length-contNum+1];	//ex) 7일 근무 4일연속인 경우 총 4가지의 결과 값이 나옴 
+		int[] result = new int[arr.length-contNum+1];	//ex) 7일 근무 4일 연속인 경우 총 4가지의 결과 값이 나옴 
 		
 		HashMap<Integer, Integer> hm = new HashMap<>();
 		
-		//초기 셋팅 
+		//Sliding Window 주어진 크기만큼 초기 셋팅 
 		for(int i=0; i<contNum; i++) {
 			hm.put(arr[i], (hm.getOrDefault(arr[i], 0)+1));
 		}
 		result[0] = hm.size();
 		rt++;
 		
-		//sliding window 사용 
+		//sliding window 이동 
 		while(rt < arr.length) {
 			
+			//Sliding 가장 좌측에 있는 값 제거 
 			hm.put(arr[lt], (hm.get(arr[lt])-1));
 			
 			//lt 값 -1 만약 0이 된다면 remove 해서 size에 안 잡히도록 한다. 
 			if(hm.get(arr[lt]) == 0) {
-				hm.remove(arr[lt]);
+				hm.remove(arr[lt++]);
 			}
-			lt++;
 			
-			hm.put(arr[rt], (hm.getOrDefault(arr[rt], 0) + 1));
-			result[++rt-contNum] = hm.size();
+			hm.put(arr[rt], (hm.getOrDefault(arr[rt++], 0) + 1));
+			result[lt] = hm.size(); 
 		}
 		
 		for(int c : result) {

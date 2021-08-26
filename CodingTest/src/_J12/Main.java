@@ -28,8 +28,9 @@ import java.util.Scanner;
  * 현수는 항상 대문자로 해석할 수 있는 신호를 보낸다고 가정합니다.
  * 출력) 
  * 영희가 해석한 문자열을 출력합니다.
+ *
  * ex) 입력: 4 -> #****###**#####**#####**##**
- *     출력: K2HS7E
+ *     출력: COOL
  * 
  * 출처: 인프런 자바 알고리즘 문제풀이 
  * @author kimtaemin
@@ -65,7 +66,7 @@ public class Main {
 		String answer = "";
 		for(int i=0; i<n; i++) {
 			String tmp = s.substring(0,7).replace('#', '1').replace('*', '0');
-			int num = Integer.parseInt(tmp, 2);
+			int num = Integer.parseInt(tmp, 2); //2진수를 10진수로 변경
 			answer += (char)num;
 			
 			s=s.substring(7);

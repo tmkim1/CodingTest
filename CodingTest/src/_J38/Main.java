@@ -16,7 +16,7 @@ import java.util.Stack;
  * 크레인 작동 시 인형이 집어지지 않는 경우는 없으나 만약 인형이 없는 곳에서 크레인을 작동시키는 경우에는 아무런 일도 일어나지 않습니다.
  * 또한 바구니는 모든 인형이 들어갈 수 있을 만큼 충분히 크다고 가정합니다. (그림에서는 화면표시 제약으로 5칸만으로 표현하였음)
  * 게임 화면의 격자의 상태가 담긴 2차원 배열 board와 인형을 집기 위해 크레인을 작동시킨 위치가 담긴 배열 moves가 매개변수로 주어질 때,
-
+ * 크레인을 모두 작동시킨 후 터트려져 사라진 인형의 개수를 구하는 프로그램을 작성하세요.
 
  * [입력] 
  *  5
@@ -52,10 +52,10 @@ public class Main {
 					// 맨 마지막부터 순차적으로 도는데 x면 무시-> push하면 기존 값 x처리
 					int target = board[j][m-1];
 					if(target != 0) {
-						if(!stack.isEmpty() && stack.get(stack.size()-1) == target) {	//target과 같은 인형이라면 제거하고 answer += 2;
-							stack.pop();
-							board[j][m-1] = 0;
-							answer += 2;
+						if(!stack.isEmpty() && stack.peek() == target) {	//target과 같은 인형이라면 제거하고 answer += 2;
+							stack.pop();            //stack에 있던 target과 같은 인형도 없어지며,
+							board[j][m-1] = 0;      //인형을 뽑았으니 target 자리도 0으로 만들어주고,
+							answer += 2;            //사라진 인형 2개에 대한 카운트 처리 
 							break;
 						} else {					//아니라면 인형을 stack에 추가하고 기존 배열에 값은 0으로 변경 
 							stack.push(target);

@@ -7,6 +7,7 @@ import java.util.Stack;
 
 /**
  * 41. 공주 구하기 
+ * 
  * 정보 왕국의 이웃 나라 외동딸 공주가 숲속의 괴물에게 잡혀갔습니다.
  * 
  * 정보 왕국에는 왕자가 N명이 있는데 서로 공주를 구하러 가겠다고 합니다.
@@ -84,7 +85,7 @@ public class Main {
 		
 		return answer;
 	}
-	
+
 	public static void main(String[] args) {
 		int n=0, k=0;
 		Scanner sc = new Scanner(System.in);

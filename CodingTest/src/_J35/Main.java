@@ -16,10 +16,13 @@ import java.util.TreeSet;
  * [입력] 
  *  10 3
 	13 15 34 23 45 65 33 11 26 42
+	
 	7 3
 	13 15 34 23 45 65 33
+	
 	10 1200
     23 26 50 17 34 35 50 22 53 41 
+    
  * [출력] 
  * 143
  * 
@@ -44,8 +47,8 @@ public class Main {
 		int answer = -1;
 		TreeSet<Integer> ts = new TreeSet<>(Collections.reverseOrder()); //큰 수가 위로 와야 하기 때문에 reverseOrder
 		
-		for(int i=0; i<n; i++) {
-			for(int j=i+1; j<n; j++) {
+		for(int i=0; i<n-2; i++) {
+			for(int j=i+1; j<n-1; j++) {
 				for(int p=j+1; p<n; p++) {
 					ts.add(arr[i]+arr[j]+arr[p]);
 				}

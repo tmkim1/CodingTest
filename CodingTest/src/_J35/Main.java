@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.TreeSet;
 
 /**
- * 35. k번쨰 큰 숫자 합 찾기       
+ * 35. k번째 큰 숫자 합 찾기       
  * 
  * 문제 설명: 
  * 현수는 1부터 100사이의 자연수가 적힌 N장의 카드를 가지고 있습니다. 같은 숫자의 카드가 여러장 있을 수 있습니다.
@@ -18,6 +18,8 @@ import java.util.TreeSet;
 	13 15 34 23 45 65 33 11 26 42
 	7 3
 	13 15 34 23 45 65 33
+	10 1200
+    23 26 50 17 34 35 50 22 53 41 
  * [출력] 
  * 143
  * 
@@ -38,7 +40,8 @@ import java.util.TreeSet;
 
 public class Main {
 	
-	public static void solution(int n, int k, int[] arr) {
+	public static int solution(int n, int k, int[] arr) {
+		int answer = -1;
 		TreeSet<Integer> ts = new TreeSet<>(Collections.reverseOrder()); //큰 수가 위로 와야 하기 때문에 reverseOrder
 		
 		for(int i=0; i<n; i++) {
@@ -50,11 +53,13 @@ public class Main {
 		}
 		
 		int cnt = 0;
+		int prevNum = 0;
 		for(int num : ts) {
-			cnt++;
-			if(cnt == k) System.out.print(num);
-			
+			if(prevNum != num) cnt++;
+			if(cnt == k) return num;
+			prevNum = num;
 		}
+		return answer;
 	}
 	
 	public static void main(String[] args) {
@@ -68,6 +73,6 @@ public class Main {
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
-		solution(n, k, arr);
+		System.out.println(solution(n, k, arr));
 	}
 }

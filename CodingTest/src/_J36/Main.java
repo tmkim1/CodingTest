@@ -12,6 +12,7 @@ import java.util.Stack;
  * 
  * [입력] 
  *  (()(()))(()
+ *  )(()(()))(()
 
  * [출력] 
  * NO
@@ -24,17 +25,19 @@ import java.util.Stack;
 public class Main {
 	
 	//내 풀이 
-	public static void solution(String str) {
+	public static String solution(String str) {
 		
 		int chkCnt=0;
 		
 		for(char c : str.toCharArray()) {
-			if(c == '(') chkCnt++;
-			else if( c == ')') chkCnt--;
+			
+			if( c == ')' && chkCnt ==0) return "NO";
+			else if(c == '(') chkCnt++;
+			else if(c == ')') chkCnt--;
 		}
 		
-		if(chkCnt == 0 ) System.out.print("YES");
-		else System.out.print("NO");
+		if(chkCnt == 0 ) return "YES";
+		else return "NO";
 		
 	}
 	
@@ -58,7 +61,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
-		solution(str);
+		System.out.println(solution(str));
 		System.out.println(solution2(str));
 		
 	}

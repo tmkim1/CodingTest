@@ -17,6 +17,12 @@ import java.util.Stack;
  * [출력] 
  * 12
  * 
+ * [입력] 
+ * 352+*9/
+
+ * [출력] 
+ * 2
+ * 
  * 
  * 참고: 인프런 자바 알고리즘 문제풀이
  * 
@@ -48,7 +54,7 @@ public class Main {
 				stack.push(stack.pop() * stack.pop());
 			} else if(c == '/') 
 			{
-				int result = stack.get(stack.size()/2) - stack.pop();
+				int result = stack.get(stack.size()-2) / stack.pop();
 				stack.pop();
 				stack.push(result);
 			} else 
@@ -75,9 +81,9 @@ public class Main {
 				int lt = stack.pop();
 				
 				if(c == '+') stack.push(rt+lt);
-				else if(c == '-') stack.push(rt+lt);
-				else if(c == '*') stack.push(rt+lt);
-				else if(c == '/') stack.push(rt+lt);
+				else if(c == '-') stack.push(lt-rt);
+				else if(c == '*') stack.push(rt*lt);
+				else if(c == '/') stack.push(lt/rt);
 			}
 		}
 		

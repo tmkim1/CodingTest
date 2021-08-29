@@ -126,8 +126,13 @@ ___________________________________________________________
 
 - 스택, 큐
 1. [기능개발](CodingTest/src/_11/Main.java) 
+2. [프린터](CodingTest/src/_14/Main.java) 
 
-- 탐색 
+- 완전 탐색
+1. [모의고사](CodingTest/src/_15/Main.java) 
+2. [소수찾기](CodingTest/src/_16/Main.java) 
+
+- 이분 탐색 
 1. [입국심사](CodingTest/src/_12/Main.java) 
 
 - 위클리 챌린지 

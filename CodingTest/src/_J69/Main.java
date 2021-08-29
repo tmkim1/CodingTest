@@ -49,7 +49,7 @@ public class Main {
 		}
 	}
 	
-	//일반 반복분 사
+	//일반 반복분 사용 
 	public static void test() {
 		for(int i=1; i<=n; i++) {
 			for(int j=1; j<=n; j++) {
@@ -61,7 +61,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
-	    m = sc.nextInt(); 
+	        m = sc.nextInt(); 
 		
 		pm = new Integer[m];
 		DFS(0);

@@ -43,8 +43,8 @@ class Schedule implements Comparable<Schedule> {
 	
 	@Override
 	public int compareTo(Schedule sc) {
-		if(sc.dueDay == this.dueDay) return sc.pay - this.pay;
-		return sc.dueDay - this.dueDay;
+		if(sc.dueDay == this.dueDay) return sc.pay - this.pay; //dueDay가 같은 경우 pay 내림차순 
+		return sc.dueDay - this.dueDay; //dueDay 내림차순 
 		
 	}
 }
@@ -55,7 +55,6 @@ public class Main {
 	
 	public static int solution(ArrayList<Schedule> sl) {
 		int answer = 0;
-		int curDay = maxDueDay;
 		// PriorityQueue => 가장 작은 값을 우선으로 poll, Collections.reverseOrder() 추가 시, 가장 큰 값을 우선으로 poll 
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 		Collections.sort(sl);
@@ -67,7 +66,7 @@ public class Main {
 				if(sl.get(j).dueDay<i) break; 
 				pq.add(sl.get(j).pay); //후보 추가 
 			}
-			if(!pq.isEmpty()) answer += pq.poll(); // 가장 큰 페이를 
+			if(!pq.isEmpty()) answer += pq.poll(); // 가장 큰 페이를 저장 
 		}
 		return answer; 
 	}
@@ -79,13 +78,13 @@ public class Main {
 		
 		ArrayList<Schedule> sl = new ArrayList<>();
 		
+		// 강의 비용, 만료 일정 셋팅 
 		for(int i=0; i<n; i++) {
 			int tmpPay = sc.nextInt();
 			int tmpDueDay = sc.nextInt();
 			sl.add(new Schedule(tmpPay, tmpDueDay));
 			maxDueDay = Math.max(maxDueDay, tmpDueDay);
 		}
-		
 		
 		System.out.println(solution(sl));
 	}

@@ -5,10 +5,13 @@ import java.util.Scanner;
 /**
  * 문제: 개미 전사 (DP) 
  * 
+ * 출처: 이것이 코딩 테스트다.
  * 
- * 
- * 출처: 이것이 코딩 테스트다. 
- * 
+ * [입력]
+ * 4
+   1 3 1 5
+ * [출력]
+ * 8
  * @author kimtaemin
  *
  */
@@ -33,9 +36,11 @@ public class Main {
 		d[1] = Math.max(arr[0], arr[1]);
 		
 		//초깃값을 이용하여 최적의 해를 구함, dp 보텀업
-		for(int i=2; i<d.length; i++) {
-			d[i] = Math.max(d[i-1], d[i] + arr[i]);
+		for(int i=2; i<n; i++) {
+			d[i] = Math.max(d[i-1], d[i-2] + arr[i]);
 		}
+		
+		System.out.println(d[n-1]);
 	}
 
 }

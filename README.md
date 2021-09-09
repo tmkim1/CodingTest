@@ -135,6 +135,13 @@ ___________________________________________________________
 - 이분 탐색 
 1. [입국심사](CodingTest/src/_12/Main.java) 
 
+- 힙, 우선순위 큐
+1. [더 맵게](CodingTest/src/_17/Main.java) 
+2. [디스크 컨트롤러](CodingTest/src/_18/Main.java) 
+
+- DFS
+1. [타켓 넘버](CodingTest/src/_20/Main.java) 
+
 - 위클리 챌린지 
 1. [상호 평가](CodingTest/src/_9/Main.java)
 2. [부족한 금액 계산하기](CodingTest/src/_10/Main.java)
@@ -150,9 +157,10 @@ ___________________________________________________________
 6. [Remove Element](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/)
 7. [Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/)
 
-# 눈 떠보니 내일이 코딩테스트
+# 이코테, 눈 떠보니 내일이 코딩테스트
 1. [암호 해독](CodingTest/src/Q1/Main.java)
 2. [순서대로 돌다리 건너기](CodingTest/src/Q2/Main.java)
+3. 
 ________________________________________________________________
 
 <!--

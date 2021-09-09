@@ -157,10 +157,9 @@ ___________________________________________________________
 6. [Remove Element](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/)
 7. [Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/)
 
-# 이코테, 눈 떠보니 내일이 코딩테스트
+# 눈 떠보니 내일이 코딩테스트
 1. [암호 해독](CodingTest/src/Q1/Main.java)
 2. [순서대로 돌다리 건너기](CodingTest/src/Q2/Main.java)
-3. 
 ________________________________________________________________
 
 <!--

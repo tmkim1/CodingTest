@@ -135,6 +135,13 @@ ___________________________________________________________
 - 이분 탐색 
 1. [입국심사](CodingTest/src/_12/Main.java) 
 
+- 힙, 우선순위 큐
+1. [더 맵게](CodingTest/src/_17/Main.java) 
+2. [디스크 컨트롤러](CodingTest/src/_18/Main.java) 
+
+- DFS
+1. [타켓 넘버](CodingTest/src/_20/Main.java) 
+
 - 위클리 챌린지 
 1. [상호 평가](CodingTest/src/_9/Main.java)
 2. [부족한 금액 계산하기](CodingTest/src/_10/Main.java)

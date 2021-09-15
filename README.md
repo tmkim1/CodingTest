@@ -1,6 +1,6 @@
 ________________________________________________________________
 
-# 자바 알고리즘 문제풀이
+# 자바 알고리즘 문제풀이(인프런, 이코테)
 - String
 1. [문자 출연 횟수 구하기](CodingTest/src/_J01/Main.java)
 2. [입력된 문자열: 대소문자 변환](CodingTest/src/_J02/Main.java)
@@ -111,6 +111,10 @@ ________________________________________________________________
 89. [최대 부분 증가 수열](CodingTest/src/_J89/Main.java)
 90. [동전 교환 (냅색 알고리즘)](CodingTest/src/_J90/Main.java)
 91. [최대 점수 구하기 (냅색 알고리즘)](CodingTest/src/_J91/Main.java)
+92. [개미전사](CodingTest/src/_ect_6_1/Main.java)
+93. [1로 만들기](CodingTest/src/_ect_6_1/Main2.java)
+94. [효율적인 화폐 구하기](CodingTest/src/_ect_6_1/Main3.java)
+95. [금광](CodingTest/src/_ect_6_1/Main4.java)
 ___________________________________________________________
 
 # 프로그래머스

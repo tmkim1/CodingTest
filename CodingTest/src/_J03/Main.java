@@ -12,9 +12,8 @@ import java.util.Scanner;
 public class Main {
 	public static String solution(String str) {
 		String answer = "";
+		String[] strArray = str.split(" "); // 문자열을 공백 기준으로 잘라서 단어 단위로 배열에 담는다. 
 		
-		// 문자열을 공백을 기준으로 배열에 담는다. 
-		String[] strArray = str.split(" ");
 		for(String tempStr : strArray) {
 			if(tempStr.length() > answer.length()) {
 				answer = tempStr;
@@ -27,11 +26,11 @@ public class Main {
 	public static String solution2(String str) {
 		String answer = "";
 		int pos = 0;
-		// 문자열을 공백을 기준으로 배열에 담는다. 
-		String[] strArray = str.split(" ");
+		
 		while((pos=str.indexOf(' ')) != -1) { //공백을 발견할때까지 반복 
 			String tmp = str.substring(0, pos);
 			str = str.substring(pos+1);
+			
 			if(tmp.length() > answer.length()) {
 				answer = tmp;
 			}

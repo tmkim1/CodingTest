@@ -5,14 +5,15 @@ import java.util.*;
 /**
  * 큰 수의 법칙
  * 다양한 수로 이루어진 배열이 있을 때
- * M번 더하여 가장 큰 수를 만든다. 같은 수를 K번 초가형 더해질 수 없다.
+ * M번 더하여 가장 큰 수를 만든다. 같은 수를 K번 초과하여 더할 수 없다.
  * 배열의 크기 2 <= N <= 1000
  */
 public class Main3_2 {
     public static void main(String[] args) {
-        //가장 큰 수와 두 번쨰 큰 수를 찾는다.
+        //가장 큰 수와 두 번째 큰 수를 찾는다.
         //가장 큰 수를 M번 만큼 더하고 M번보다 많아지는 순간 두번째 큰 수를 더하고 M Count Index를 0으로 초기화한다.
         Integer[] numArr = {2, 4, 5, 4, 6};
+
         int n = numArr.length; //제시된 숫자의 개수 (5)
         int m = 8; //더하기 횟수
         int k = 3; //반복 제한 횟수
@@ -32,7 +33,7 @@ public class Main3_2 {
         for(int i=0; i<m; i++) {
             if(limitedCnt < k) {
                 answer += maxNum;
-                 limitedCnt ++;
+                limitedCnt ++;
             } else {
                 answer += secondMaxNum;
                 limitedCnt = 1;

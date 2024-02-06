@@ -20,11 +20,11 @@ public class Main3_1 {
 
             countByCoinType.put(coin, payAmount / coin); // 동전 별로 사용한 개수를 구하기 위해 HashMap에 저장
 
-            payAmount %= coin; //남은 금액 초기화
+            payAmount %= coin; //남은 금액 셋팅
         }
-        System.out.println("전체 사용 개수 = " + coinCount);
+        System.out.println("전체 동전 사용 개수 = " + coinCount);
 
-        //동전 별 사용한 개수 출력, 위에서 구하면서 출력해도 되지만 저장한 후에 출력되는 것을 보여주기 위해 for문 분리
+        //동전 별 사용한 개수 출력 (저장한 후에 출력되는 것을 보여주기 위해 HashMap 출력 for문 분리)
         for(int coin : coinTypes) {
             System.out.println("동전 "+coin +"원 사용 개수: " + countByCoinType.get(coin) + "개");
         }

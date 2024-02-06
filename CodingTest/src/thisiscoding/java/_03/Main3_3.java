@@ -1,9 +1,6 @@
 package thisiscoding.java._03;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 /**
  * 숫자 카드 게임

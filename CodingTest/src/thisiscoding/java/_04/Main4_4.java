@@ -16,12 +16,9 @@ public class Main4_4 {
         int n = 4; //맵 크기
         int x = 1; //초기 x 좌표
         int y = 1; //초기 y 좌표
-//        int beforeX = 0;
-//        int beforeY = 0;
-        int nowDirection = 0;
+        int nowDirection = 0; //초기 바라보고 있는 방향
 
-        //반시계 방향으로 셋팅
-        char[] direction = {'L', 'R', 'U', 'D'};
+        //반시계 방향 순서로 셋팅
         int[] dx = {-1, 0, 1, 0};
         int[] dy = {0, 1, 0, -1};
 

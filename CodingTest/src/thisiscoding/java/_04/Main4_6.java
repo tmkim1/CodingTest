@@ -1,10 +1,7 @@
 package thisiscoding.java._04;
 
-import com.sun.tools.javac.util.StringUtils;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * 문자열 재정렬

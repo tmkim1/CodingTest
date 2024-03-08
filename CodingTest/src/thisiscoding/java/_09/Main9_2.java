@@ -90,8 +90,5 @@ public class Main9_2 {
                 System.out.println("d[" +i +"] " + d[i]);
             }
         }
-
-
-
     }
 }

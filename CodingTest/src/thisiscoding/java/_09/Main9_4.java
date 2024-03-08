@@ -25,7 +25,7 @@ import java.util.Scanner;
  */
 public class Main9_4 {
     public static final int INF = (int) 1e9; // 무한을 의미하는 값으로 10억을 설정
-    // 노드의 개수(N), 간선의 개수(M), 경유 노드(X), 최종 목적지 노드(K)
+    // 노드의 개수(N), 간선의 개수(M), 경유 노드(K), 최종 목적지 노드(X)
     public static int n, m, x, k;
     // 2차원 배열(그래프 표현)를 만들기
     public static int[][] graph = new int[101][101];
@@ -70,7 +70,7 @@ public class Main9_4 {
             }
         }
         
-        //수핸된 결과를 출력
+        //수핸된 결과를 출력 시작점 (1) -> 경유지 (k) -> 도착지 (x)
         int distance = graph[1][k] + graph[k][x];
         
         if(distance >= INF) {
@@ -78,8 +78,5 @@ public class Main9_4 {
         } else {
             System.out.println("distance = " + distance);
         }
-        
-
     }
-
 }
